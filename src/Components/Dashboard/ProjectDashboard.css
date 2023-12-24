@@ -1,0 +1,107 @@
+/* ProjectDashboard.css */
+button {
+  margin: 10px;
+}
+
+.project-container{
+  display:flex;
+  
+}
+
+
+
+.project-box {
+  
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+  width:13rem;
+ 
+  
+}
+.project-box-content{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.status-container {
+  position: relative;
+}
+
+.status-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.status-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 80px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.status-button.ongoing {
+  background-color: yellow;
+  color: black;
+}
+
+.status-button.completed {
+  background-color: green;
+  color: white;
+}
+
+.status-dropdown.show {
+  display: block;
+  top: 10;
+  left:0; /* Display the dropdown when the 'show' class is present */
+}
+
+.status-dropdown button {
+  display: block;
+  /* width: 10rem; */
+  padding: 8px;
+  text-align: left;
+  border: none;
+  background-color: rgb(223, 220, 220);
+  color: #121412;
+  cursor: pointer;
+  width:6rem;
+}
+
+.status-dropdown button:hover {
+  background-color: #ddd;
+}
+
+.filter-button {
+  margin: 10px;
+  /* border: none; */
+  border:solid;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: black; /* Set the default text color */
+  background-color: white;
+
+}
+
+.filter-button:hover{
+
+  background-color: #f9f9f9;
+}
+.filter-button.selected {
+  background-color: black; /* Set the background color for the selected button */
+  color: white; /* Set the text color for the selected button */
+}
+
+
+

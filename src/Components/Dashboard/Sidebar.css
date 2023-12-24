@@ -1,0 +1,51 @@
+/* Sidebar.css */
+
+.sidebar {
+    width: 230px;
+    height: 100vh;
+    background-color: #050404;
+    padding: 20px;
+    color: white;
+    
+  }
+  
+  .sidebar h2 {
+    
+    text-align: start;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 20px;
+    width:10rem;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+   
+   
+  }
+
+  .sidebar li:hover{
+
+    border: solid;
+    border-radius: 10px;
+    padding:0.6rem;
+    border-color: black;
+    background-color: rgb(28, 26, 26);
+
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .sidebar a:hover {
+    color: #61dafb; /* Change the color on hover */
+  }
+  
